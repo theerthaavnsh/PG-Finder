@@ -40,10 +40,11 @@
   text-decoration: none;
   border: 2px solid #000000;
   border-radius: 20px;
-  padding: 10px 60px;
+  padding: 10px 50px;
   color: black;
   font-size: 17px;
-  background-color: #5bb7cb;
+  font-family: "Poppins";
+  background-color: #ebf1f2;
 }
 
 .nav-right a:hover {
@@ -54,9 +55,10 @@
 
 .hero-cont {
   display: flex;
+  font-family: "Poppins";
   justify-content: space-around;
-  gap: 30px;
-  margin: 100px 80px;
+  gap: 20px;
+  margin: 30px 80px;
   align-items: center;
   height: 100%;
   background-color: #5bb7cb;
@@ -76,7 +78,7 @@
 
 .hero-left h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   background-color: #5bb7cb;
 }
 
@@ -85,7 +87,11 @@
   border-radius: 20px;
 }
 
-.hero-left a.join-now-button {
-  background: navy;
-  border: none;
-  padding: 10px 40
+.hero-left a{
+    background: black;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
