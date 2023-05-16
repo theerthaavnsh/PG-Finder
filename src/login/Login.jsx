@@ -8,7 +8,7 @@ export default function Login() {
         <div className="login-head">
             <h1>Welcome to your new home!</h1>
             <p>Find your home away from home, just a click away</p>
-            <button className="login-btn">
+            <button className="login-button-img">
                 <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png"></img>
                 <p>Sign in with Google </p>
             </button>
