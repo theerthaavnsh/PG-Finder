@@ -1,80 +1,91 @@
-.hero{
-    min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.hero {
+  min-height: 100vh;
+  background-color: #5bb7cb;
 }
-.nav{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
+
+.nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  background-color: #5bb7cb;
 }
-.nav-left{
-    float: left;
-    padding-left: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.nav-left {
+  float: left;
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5bb7cb;
 }
-.nav-right{
+
+.nav-right {
   float: left;
   padding-right: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #5bb7cb;
 }
-.nav-left img{
-    height: 50px;
-    
-}
-.nav-right a{
-    text-decoration: none;
-    border: 2px solid #000000;
-    border-radius: 20px;
-    padding: 10px 60px;
-    color: black;
-    font-size: 17px;
-}
-.nav-right a:hover{
-    background: black;
-    color: white;
-}
-.hero-cont{
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    margin: 100px 80px;
-    align-items: center;
-    height: 100%;
-}
-.hero-left{
-    flex: 1;
-    text-align: left;
-    margin-left: 50px;
-}
-.hero-right{
-    flex: 1;
 
-    
+.nav-left img {
+  height: 50px;
 }
-.hero-left h1{
-    font-family: poppins;
-    font-size: 50px;
-}
-.hero-right img{
-    width: 100%;
-    border-radius: 20px;
-}
-.hero-left a{
-    background: black;
-    border: none;
-    padding: 15px 40px;
-    color: white;
-    border-radius: 20px;
-    text-decoration: none;
 
+.nav-right a {
+  text-decoration: none;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 10px 60px;
+  color: black;
+  font-size: 17px;
+  background-color: #5bb7cb;
 }
-.hero-left a:hover{
-    background:none;
-    border: 2px solid black;
-    color: black;
+
+.nav-right a:hover {
+  background: black;
+  color: #5bb7cb;
+  background-color: #5bb7cb;
 }
+
+.hero-cont {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin: 100px 80px;
+  align-items: center;
+  height: 100%;
+  background-color: #5bb7cb;
+}
+
+.hero-left {
+  flex: 1;
+  text-align: left;
+  margin-left: 50px;
+  background-color: #5bb7cb;
+}
+
+.hero-right {
+  flex: 1;
+  background-color: #5bb7cb;
+}
+
+.hero-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  background-color: #5bb7cb;
+}
+
+.hero-right img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero-left a.join-now-button {
+  background: navy;
+  border: none;
+  padding: 10px 40
