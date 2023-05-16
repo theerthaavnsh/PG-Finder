@@ -10,7 +10,7 @@
   height: 40px;
   display: flex;
   justify-content: space-between;
-  margin: 20px 0px;
+  
   background-color: #5bb7cb;
 }
 
@@ -25,7 +25,8 @@
 
 .nav-right {
   float: left;
-  padding-right: 60px;
+  padding-right: 50px;
+  padding-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +41,7 @@
   text-decoration: none;
   border: 2px solid #000000;
   border-radius: 20px;
-  padding: 10px 50px;
+  padding: 5px 40px;
   color: black;
   font-size: 17px;
   font-family: "Poppins";
