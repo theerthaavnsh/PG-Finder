@@ -1,5 +1,5 @@
 import './App.css';
-import Hero from './pages'
+import Hero from './pages/hero.jsx'
 
 function App() {
   return (
