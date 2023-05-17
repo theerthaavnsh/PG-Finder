@@ -1,5 +1,7 @@
 import React from "react";
 import "./login.css";
+import imgleft from '../../src/images/imgleft.png';
+import imgright from '../../src/images/imgright.png';
 
 export default function Login() {
   return (

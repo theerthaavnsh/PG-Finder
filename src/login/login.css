@@ -7,6 +7,7 @@
   .login-cont {
     width: 80%;
     display: flex;
+    font-size: large;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -16,6 +17,7 @@
   
   .login-head {
     width: 100%;
+    font-size: larger;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +25,7 @@
   }
   
   .login-head p {
-    text-align: left;
+    text-align: center;
   }
   
   .login-head h1 {
@@ -31,8 +33,8 @@
   }
   
   .login-button {
-    width: 50%;
-    background: white;
+    width: 40%;
+    background: rgb(24, 79, 104);
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -40,13 +42,13 @@
   }
   
   .login-button button {
-    background: #d0d0d0;
+    background: #9dcfea;
     padding: 10px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    width: 80%;
+    width: 50%;
     background: #e6e6e6;
     border-radius: 20px;
     border: none;
@@ -61,20 +63,20 @@
   .login-image-left,
   .login-image-right {
     width: 20%;
-    height: 100%;
+    height: 50%;
     position: absolute;
   }
   
   .login-image-left {
     left: 0;
-    background-image: url('path/to/left-image.jpg');
+    background-image: url('../../src/images/imgleft.png');
     background-size: cover;
     background-position: center;
   }
   
   .login-image-right {
     right: 0;
-    background-image: url('path/to/right-image.jpg');
+    background-image: url('../../src/images/imgright.png');
     background-size: cover;
     background-position: center;
   }
