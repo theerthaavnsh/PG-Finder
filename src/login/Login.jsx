@@ -1,6 +1,6 @@
 import React from "react";
 import "./login.css";
-import google from "../../images/google.png";
+
 
 export default function Login() {
   return (
