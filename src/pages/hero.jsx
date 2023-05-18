@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="hero-left">
           <h1>Discover your dream PG today!</h1>
           <p>Your one-stop destination for finding the perfect paying guest accommodations. 
-            Whether you're a student, working professional, or new to a city, our user-friendly platform connects you
+            If you're new to a city, our user-friendly platform connects you
             with a wide range of verified PG options, making your search hassle-free and convenient. 
             <b>Find your ideal home away from home with PG Finder today!</b> 
           </p>
