@@ -1,83 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .login {
-    width: 100%;
-    height: 100vh;
-    background: #5bb7cb;
-  }
-  
-  .login-cont {
-    width: 80%;
-    display: flex;
-    font-size: large;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Poppins";
-    margin-left: 3%;
-  }
-  
-  .login-head {
-    width: 100%;
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .login-head p {
-    text-align: center;
-  }
-  
-  .login-head h1 {
-    margin-top: 30px;
-  }
-  
-  .login-button {
-    width: 40%;
-    background: rgb(24, 79, 104);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    padding: 30px 20px;
-  }
-  
-  .login-button button {
-    background: #9dcfea;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    width: 50%;
-    background: #e6e6e6;
-    border-radius: 20px;
-    border: none;
-    justify-content: center;
-  }
-  
-  .login-button button img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .login-image-left,
-  .login-image-right {
-    width: 20%;
-    height: 50%;
-    position: absolute;
-  }
-  
-  .login-image-left {
-    left: 0;
-    background-image: url('../../src/images/imgleft.png');
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .login-image-right {
-    right: 0;
-    background-image: url('../../src/images/imgright.png');
-    background-size: cover;
-    background-position: center;
-  }
-  
+  width: 100vw;
+  height: 100vh;
+  background-color: #5bb7cb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.login-cont {
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  gap: 4em;
+}
+
+.login-head {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.login-head p {
+  text-align: center;
+  font-weight: 600;
+  color: rgba(17, 17, 17, 0.5);
+}
+
+.login-button button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5em;
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+}
+
+.login-button button p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.login-button button img {
+  width: 30px;
+  height: 30px;
+}
+
+.login-image-left,
+.login-image-right {
+  width: 30%;
+  height: 80%;
+}
+
+.login-image-left {
+  background-image: url("https://github.com/theerthaavnsh/PG-Finder/blob/main/src/images/imgright.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  align-self: flex-end;
+  transform: translateY(5em);
+}
+
+.login-image-right {
+  background-image: url("https://github.com/theerthaavnsh/PG-Finder/blob/main/src/images/imgleft.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  align-self: flex-start;
+  transform: translateY(-5em);
+}
